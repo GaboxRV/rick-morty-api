@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "rick-morty-api"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Ramirez <vioki_0197@hotmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.14"
+requests = "^2.34.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
